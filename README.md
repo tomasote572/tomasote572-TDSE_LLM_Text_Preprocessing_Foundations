@@ -34,10 +34,10 @@ Sample text file used in the notebook for demonstration.
 
 ### Special Features
 
-- ![alt text](image.png)
-- ![alt text](image-1.png)
-- ![alt text](image-2.png)
-- ![alt text](image-3.png)
+- ![alt text](imagenes/image-1.png) 
+- ![alt text](imagenes/image-2.png) 
+- ![alt text](imagenes/image-3.png) 
+- ![alt text](imagenes/image.png)
 
 - NOTA: para mirar a detalle revisar el `Explicacion.ipynb`
 
