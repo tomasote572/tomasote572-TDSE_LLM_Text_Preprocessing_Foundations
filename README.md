@@ -1,80 +1,71 @@
 # TDSE_LLM_Text_Preprocessing_Foundations
 
-## Embeddings y Preprocesamiento de Texto para LLMs
+## Embeddings and Text Preprocessing for LLMs
 
-Este repositorio contiene un notebook Jupyter educativo basado en el Capítulo 2 del libro "Build a Large Language Model (From Scratch)" de Sebastian Raschka.
+This repository contains an educational Jupyter notebook based on Chapter 2 of the book "Build a Large Language Model (From Scratch)" by Sebastian Raschka.
 
-### Contenido
+### Content
 
-#### 📓 `embeddings.ipynb`
-Notebook completo que cubre los fundamentos del preprocesamiento de texto para Large Language Models:
+#### `embeddings.ipynb`
+Complete notebook covering the foundations of text preprocessing for Large Language Models:
 
-1. **Tokenización básica y Byte Pair Encoding (BPE)**
-   - Conversión de texto a tokens
-   - Implementación con tiktoken (GPT-2)
+1. **Basic Tokenization and Byte Pair Encoding (BPE)**
+   - Text to token conversion
+   - Implementation with tiktoken (GPT-2)
    
-2. **Data sampling con sliding window**
-   - Creación de ventanas de entrenamiento
-   - Parámetros `max_length` y `stride`
+2. **Data sampling with sliding window**
+   - Training window creation
+   - `max_length` and `stride` parameters
    
 3. **Token embeddings**
-   - Representaciones vectoriales de tokens
-   - Matrices de embeddings aprendibles
+   - Vector representations of tokens
+   - Learnable embedding matrices
    
 4. **Positional encodings**
-   - Incorporación de información de posición
-   - Encodings absolutos y relativos
+   - Incorporating position information
+   - Absolute and relative encodings
 
-5. **Experimento: Efecto de max_length y stride**
-   - Análisis práctico de parámetros
-   - Visualización de resultados
+5. **Experiment: Effect of max_length and stride**
+   - Practical parameter analysis
+   - Results visualization
 
-#### 📄 `the-verdict.txt`
-Archivo de texto de ejemplo usado en el notebook para demostración.
+####  `the-verdict.txt`
+Sample text file used in the notebook for demonstration.
 
-### Características especiales
+### Special Features
 
-- ✅ **4 explicaciones en español** que responden preguntas fundamentales:
-  - ¿Por qué necesitamos tokenización?
-  - ¿Por qué usar sliding window para crear muestras?
-  - ¿Por qué los embeddings codifican significado?
-  - ¿Por qué necesitamos positional encodings?
+- ![alt text](image.png)
+- ![alt text](image-1.png)
+- ![alt text](image-2.png)
+- ![alt text](image-3.png)
 
-- ✅ **Experimento práctico** con análisis de parámetros de data sampling
+- NOTA: para mirar a detalle revisar el `Explicacion.ipynb`
 
-- ✅ **148 celdas totales** (94 markdown, 54 código)
-
-- ✅ **Código ejecutable** de principio a fin
-
-### Requisitos
+### Requirements
 
 ```bash
 pip install torch tiktoken pandas jupyter
 ```
 
-### Uso
+### Usage
 
 ```bash
 jupyter notebook embeddings.ipynb
 ```
 
-### Estructura del notebook
+### Notebook Structure
 
 ```
-Introducción
-├── Explicación 1: Tokenización (con código)
-├── Explicación 2: Sliding Window (con código)
-├── Explicación 3: Embeddings (con código)
-├── Explicación 4: Positional Encodings (con código)
-└── Experimento: max_length y stride (con análisis)
+Introduction
+├── Explanation 1: Tokenization
+├── Explanation 2: Sliding Window
+├── Explanation 3: Embeddings
+├── Explanation 4: Positional Encodings
+└── Experiment: max_length and stride
 ```
 
-### Referencias
+### References
 
-- Libro: "Build a Large Language Model (From Scratch)" - Sebastian Raschka
-- Repositorio original: https://github.com/rasbt/LLMs-from-scratch
-- Capítulo 2: https://github.com/rasbt/LLMs-from-scratch/tree/main/ch02
-
-### Licencia
-
-Este material educativo está basado en código de fuente abierta del repositorio LLMs-from-scratch.
+- Book: "Build a Large Language Model (From Scratch)" - Sebastian Raschka
+- Original repository: https://github.com/rasbt/LLMs-from-scratch
+- Chapter 2: https://github.com/rasbt/LLMs-from-scratch/tree/main/ch02
