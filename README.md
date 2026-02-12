@@ -4,6 +4,29 @@
 
 This repository contains an educational Jupyter notebook based on Chapter 2 of the book "Build a Large Language Model (From Scratch)" by Sebastian Raschka.
 
+### Requirements
+
+```bash
+pip install torch tiktoken pandas jupyter
+```
+
+### Usage
+
+```bash
+jupyter notebook embeddings.ipynb
+```
+
+### Notebook Structure
+
+```
+Introduction
+├── Explanation 1: Tokenization
+├── Explanation 2: Sliding Window
+├── Explanation 3: Embeddings
+├── Explanation 4: Positional Encodings
+└── Experiment: max_length and stride
+```
+
 ### Content
 
 #### `embeddings.ipynb`
@@ -39,30 +62,9 @@ Sample text file used in the notebook for demonstration.
 - ![alt text](imagenes/image-3.png) 
 - ![alt text](imagenes/image.png)
 
-- NOTA: para mirar a detalle revisar el `Explicacion.ipynb`
+- NOTE: For details, please review `Explicacion.ipynb`
 
-### Requirements
 
-```bash
-pip install torch tiktoken pandas jupyter
-```
-
-### Usage
-
-```bash
-jupyter notebook embeddings.ipynb
-```
-
-### Notebook Structure
-
-```
-Introduction
-├── Explanation 1: Tokenization
-├── Explanation 2: Sliding Window
-├── Explanation 3: Embeddings
-├── Explanation 4: Positional Encodings
-└── Experiment: max_length and stride
-```
 
 ### References
 
